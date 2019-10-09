@@ -1,0 +1,12 @@
+# replace default config
+# 
+# 
+
+plugins:
+
+  # - name
+
+- removeAttrs:
+    attrs:
+      - 'fill'
+      - 'fill-rule'
