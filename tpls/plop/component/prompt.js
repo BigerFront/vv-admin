@@ -16,11 +16,11 @@ module.exports = {
       value:'template',
       checked:true
     },{
-      type:'<script>',
+      name:'<script>',
       value:'script',
       checked:true
     },{
-      type:'style',
+      name:'style',
       value:'style',
       checked:true
     }],
@@ -36,7 +36,7 @@ module.exports = {
     const actions = [{
       type:'add',
       path:`src/components/${name}/index.vue`,
-      templatFile:'tpls/plop/component/index.hbs',
+      templateFile:'tpls/plop/component/index.hbs',
       data:{
         name:name,
         template:data.blocks.includes('template'),
