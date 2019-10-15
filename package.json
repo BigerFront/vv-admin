@@ -4,6 +4,7 @@
   "description": "Vultr Vue Admin Web",
   "main": "src/vv-admin.js",
   "scripts": {
+    "dev":"vue-cli-service serve",
     "precommit": "lint-staged",
     "test": "echo \"Error: no test specified\" && exit 1",
     "svgo": "svgo -f src/icons/svg --config=src/icons/svgo.yml",
