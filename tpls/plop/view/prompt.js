@@ -32,11 +32,11 @@ module.exports = {
     }
   }],
   actions:data => {
-    const name = '{{properCase name}}'
+    const name = '{{name}}'
     const actions = [{
       type:'add',
       path:`src/views/${name}/index.vue`,
-      template:'tpls/plop/view/index.hbs',
+      templateFile:'tpls/plop/view/index.hbs',
       data:{
         name:name,
         template:data.blocks.includes('template'),
