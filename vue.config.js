@@ -66,7 +66,7 @@ module.exports = {
 
     //set preserveWhitespace
     config.module
-      .rule('vue').
+      .rule('vue')
       .use('vue-loader')
       .loader('vue-loader')
       .tap(options => {
