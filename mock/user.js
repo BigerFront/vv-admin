@@ -43,7 +43,7 @@ export default [
         data:token
       }
     }
-  }
+  },
 
   // get user info
   {

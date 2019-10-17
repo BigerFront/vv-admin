@@ -17,10 +17,10 @@ import '@/icons' //
 
 // import '@/permission'
 
-// import { mockXHR } from '../mock'
-// if (process.env.NODE_ENV === 'production') {
-
-// }
+import { mockXHR } from '../mock'
+if (process.env.NODE_ENV === 'production') {
+  mockXHR()
+}
 
 // set element-ui and lang
 Vue.use(ElementUI, { locale })
